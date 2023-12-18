@@ -1,0 +1,47 @@
+/* .parent {
+  width: 700px;
+  padding: 300px 0;
+  background-color: cadetblue;
+}
+
+#child {
+  margin: auto;
+  width: fit-content;
+  background-color: blanchedalmond;
+} */
+
+/* .parent {
+  max-width: 120px;
+  background-color: cadetblue;
+  padding: 10px;
+}
+
+#child {
+  margin: 10px;
+  padding: 10px;
+  width: 100px;
+  background-color: blanchedalmond;
+  box-sizing: border-box;
+} */
+
+.parent {
+  max-width: 120px;
+  background-color: cadetblue;
+  outline-offset: 10px;
+
+  outline-color: red;
+  outline-style: solid;
+  outline-width: 10px;
+  /* outline: 10px solid red; */
+
+  /* padding: 10px; */
+}
+
+
+#child {
+  /* margin: 10px; */
+  /* padding: 10px; */
+  width: 100px;
+  background-color: blanchedalmond;
+  /* box-sizing: border-box; */
+}

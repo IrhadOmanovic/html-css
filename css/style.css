@@ -1,0 +1,25 @@
+.div ~ .p {
+  background-color: lightblue;
+  
+}
+
+div:hover {
+  background-color: brown;
+  color: white;
+  position: relative;
+}
+
+div::after {
+  background-color: yellow;
+  color: black;
+  height: 20px;
+  width: 200px;
+  content: "BANANA";
+  position: absolute;
+  top: 0
+}
+
+input[type="text"] {
+  color: red;
+  border: 5px solid orange;
+}

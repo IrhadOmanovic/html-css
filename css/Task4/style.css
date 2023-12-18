@@ -1,0 +1,38 @@
+ul {
+  list-style-type: none;
+}
+
+a {
+  border: 1px solid black;
+  border-top: 0;
+  padding: 0.5rem;
+  display: inherit;
+  width: 400px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+li:first-of-type > a {
+  border: 1px solid black;
+}
+
+.a2 {
+  text-decoration: none;
+  padding: 1rem;
+}
+
+.a3 {
+  background-color: bisque;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.a4 {
+  text-decoration: none;
+  background-color: greenyellow;
+  text-transform: uppercase;
+}
+
+a:hover {
+  background-color: aliceblue;
+}

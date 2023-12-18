@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My fifth page</title>
+    </head>
+<body>
+
+<h1>This is my fifth page</h1>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    <fieldset>
+        <legend>General Info</legend>
+        <label for="name">First Name</label><br/>
+        <input type="text" name="name" /><br/>
+        <br />
+        <label for="lastName">Last Name</label><br/>
+        <input type="text" for="lastName" /><br />
+        <br />
+        <label for="phone">Phone</label><br/>
+        <input type="phone" for="phone" /><br />
+        <br />
+        <label for="email">Email</label><br/>
+        <input type="email" for="email" /><br />
+        <label for="date">Date of birth</label><br/>
+        <input type="datetime-local" for="date" /><br />
+        <br />
+        <label for="introduction"> Short introduction:</label><br/>
+        <textarea name="introduction"></textarea>
+    </fieldset>
+    <br />
+    <br />
+    <fieldset>
+        <legend>Student status</legend>
+        <label for="regular"> Regular</label>
+        <input type="checkbox" name="regular" value="Regular" />
+
+        <label for="part-time"> Part time</label>
+        <input type="checkbox" name="part-time" value="Part time" />
+
+        <label for="not-a-student"> Not a student</label>
+        <input type="checkbox" name="not-a-student" value="Not a student" />
+    </fieldset>
+    <br />
+    <br />
+    <fieldset>
+        <legend>Addres</legend>
+        <label for="country"> Country</label><br/>
+        <select name="country" size="3">
+            <option value="Bosnia">Bosnia</option>
+            <option value="Croatia">Croatia</option>
+            <option value="USA">USA</option>
+            <option value="Germany">Germany</option>
+            <option value="Austria">Austria</option>
+            <option value="Hungary">Hungary</option>
+            <option value="Spain">Spain</option>
+        </select><br />
+        <br />
+        <label for="city"> City</label><br/>
+        <select name="city" size="10">
+            <optgroup label="Bosnia">
+                <option value="Sarajevo">Sarajevo</option>
+                <option value="Visoko">Visoko</option>
+            </optgroup>
+            <optgroup label="USA">
+                <option value="Los Angeles">Los Angeles</option>
+                <option value="New York">New York</option>
+            </optgroup>
+            <optgroup label="Austria">
+                <option value="Wienna">Wienna</option>
+            </optgroup>
+            <optgroup label="Hungary">
+                <option value="Budapest">Budapest</option>
+            </optgroup>
+            <optgroup label="Spain">
+                <option value="Barcelona">Barcelona</option>
+                <option value="Madrid">Madrid</option>
+            </optgroup>
+            <optgroup label="Germany">
+                <option value="Berlin">Berlin</option>
+                <option value="Frankfurt">Frankfurt</option>
+                <option value="Hamburg">Hamburg</option>
+            </optgroup>
+        </select>
+    </fieldset>
+    <br />
+    <br />
+    
+    <!-- 0
+    <input type="range"  id="a" name="a" value="50" />
+    100 +
+    <input type="number" id="b" name="b" value="50" />
+    =
+    <output name="x" for="a b"></output>
+    <br /><br /> -->
+
+    <fieldset>
+        <legend>Credidentials</legend>
+        <label for="username">Username:</label><br>
+        <input type="text" id="username" name="username"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd">
+    </fieldset>
+    <br /><br />
+    <input type="submit">
+</form>
+</body>
+</html>
