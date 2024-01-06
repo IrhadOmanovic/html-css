@@ -1,30 +1,30 @@
-.div {
+div {
   /* unversal properties */
   width: 400px;
   min-height: 700px;
-  position: relative;
-
   background-color: red;
+  background-image: url("sysDuo.png");
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  /* position: relative; */
+
   /* background-image: url("sysDuo.png"); */
   /* background-attachment: fixed; */
-  
-  background-position: center center;
   /* opacity: 0.3; */
-  background-repeat: no-repeat;
-  /* background-size: 100px 200px; */
-  /* background-size: cover; */
+  /* background-size: 400px 700px; */
+  /* background-size:contain; */
   /* background-size: contain; */
 }
 
-.div:hover {
+div:hover {
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+
   /* unversal properties */
 
-  background-image: url("sysDuo.png");
   /* background-attachment: fixed; */
   
-  background-position: center center;
   /* opacity: 0.3; */
-  background-repeat: no-repeat;
   /* background-size: 100px 200px; */
   /* background-size: cover; */
   /* background-size: contain; */

@@ -1,22 +1,6 @@
-.div {
-  /* unversal properties */
-  position: relative;
-
+.div1 {
   background-color: red;
-  border: 7px solid black;
-}
-
-
-.div:hover {
-  background-color: black;
-  color: white;
-  border: 7px dotted red;
-}
-
-.div:active {
-  border: 7px double black !important;
-}
-
-.div:focus {
-  border: 7px dashed black;
+  max-height: 100px;
+  width: 100px;
+  overflow: hidden;
 }
