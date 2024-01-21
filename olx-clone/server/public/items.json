@@ -1,0 +1,38 @@
+[
+  {
+    "imageURL": "",
+    "vehicle": "A1",
+    "title": "Banana",
+    "fuel": "Dizel",
+    "distanceCovered": "100000",
+    "price": "10000",
+    "motorPower": "22",
+    "numberOfDoors": "2",
+    "description": "Nesta",
+    "id": 1
+  },
+  {
+    "imageURL": "",
+    "vehicle": "A1",
+    "title": "Banana",
+    "fuel": "Dizel",
+    "distanceCovered": "100000",
+    "price": "10000",
+    "motorPower": "22",
+    "numberOfDoors": "2",
+    "description": "Nesta",
+    "id": 2
+  },
+  {
+    "imageURL": "",
+    "vehicle": "A1",
+    "title": "Banana",
+    "fuel": "Dizel",
+    "distanceCovered": "100000",
+    "price": "10000",
+    "motorPower": "22",
+    "numberOfDoors": "2",
+    "description": "Nesta",
+    "id": 3
+  }
+]

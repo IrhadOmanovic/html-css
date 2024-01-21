@@ -8,6 +8,8 @@
         <link rel="icon" href="../images/logoOnlySysDuo.png" type="image/png"/>
         <title>Sys Duo</title>
         <script src="https://kit.fontawesome.com/a53fd6577e.js" crossorigin="anonymous"></script>
+        <script src="index.js"></script>
+        <script type="text/javascript" src="../db/items.json"></script>
     </head>
     <body>
         <!-- Header Section -->
@@ -47,9 +49,9 @@
             <div class="container container-md">
                 <!-- Hot Deals nav -->
                 <h1 class="form-h1">Objavi Nekretninu</h1>
-                <form class="w-100 my-3 page-form">
+                <form action="http://localhost:3000/products/properties" enctype="multipart/form-data" method="post" name="add-property" class="w-100 my-3 page-form">
                     <label for="kategorija-nekretnine">Kategorija Nekretnine</label>
-                    <select id="kategorija-nekretnine">
+                    <select name="category" id="kategorija-nekretnine">
                         <option>Stan</option>
                         <option>Kuća</option>
                         <option>Poslovni Prostor</option>
@@ -62,21 +64,21 @@
                     </select>
 
                     <label for="adresa">Adresa</label>
-                    <input id="adresa" type="text" />
+                    <input name="address" id="adresa" type="text" />
 
                     <label for="naslov">Naslov Oglasa </label>
-                    <input id="naslov" type="text" />
+                    <input name="title" id="naslov" type="text" />
 
                     <label for="cijena">Cijena </label>
-                    <input id="cijena" type="text" />
+                    <input name="price" id="cijena" type="number" />
 
                     <label for="opis">Opis </label>
-                    <textarea id="opis"></textarea>
+                    <textarea name="description" id="opis"></textarea>
 
                     <label for="slika">Dodaj sliku </label>
-                    <input type="file" id="slika"></input>
+                    <input name="image" type="file" id="slika"></input>
                     
-                    <input value="Dodaj" class="submit-btn" type="submit">
+                    <input name="upload" value="Dodaj" class="submit-btn" type="submit">
                 </form>
             </div>
         </section>
